@@ -17,7 +17,7 @@ function App() {
       element: <AppLayout />,
       children: [
         {
-          path: "products",
+          path: "/",
           element: <Products />,
           loader: async () => {
             const res = await fetch("https://fakestoreapi.com/products");
